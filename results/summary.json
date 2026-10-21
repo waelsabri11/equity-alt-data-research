@@ -1,0 +1,114 @@
+{
+  "data_quality": {
+    "tickers_in_universe": 769,
+    "tickers_with_yahoo_data": 616,
+    "recycled_tickers_dropped": [
+      "ADT",
+      "APC",
+      "BBBY",
+      "BEAM",
+      "BTU",
+      "CAM",
+      "CSRA",
+      "EMC",
+      "INFO",
+      "LIFE",
+      "MBC",
+      "NE",
+      "NFX",
+      "PCL",
+      "PCS",
+      "POM",
+      "S",
+      "SBNY",
+      "SE",
+      "SPLS",
+      "STI",
+      "TE"
+    ],
+    "non_positive_prices": 0,
+    "stale_stock_days_masked(>=5 equal closes)": 2958,
+    "daily_moves_over_50pct_without_split": 92,
+    "daily_returns_over_100pct_or_below_-75pct": 4,
+    "member_days": 1749828,
+    "member_days_with_price_pct": 87.0,
+    "names_removed_from_index": 266,
+    "removed_names_with_data_pct": 36.1,
+    "current_names_with_data_pct": 99.0,
+    "change_table_inconsistencies": {
+      "added_not_member": 8,
+      "removed_already_member": 1
+    },
+    "membership_counts": {
+      "2014-01-02": 505,
+      "2018-01-02": 508,
+      "2022-01-03": 506,
+      "2026-06-30": 503
+    },
+    "edgar": {
+      "tickers_with_price": 594,
+      "tickers_with_cik": 606,
+      "tickers_with_xbrl_facts": 604,
+      "quarterly_eps_events_since_2013": 27555,
+      "events_timed_by_8k_release_pct": 98.7,
+      "median_days_8k_to_10q": 4.0,
+      "mean_days_8k_to_10q": 14.7
+    },
+    "event_study": {
+      "events": 20614,
+      "quarters": 51,
+      "median_trading_days_8k_to_10q": 2.0
+    },
+    "llm_crosscheck": {
+      "llm_test_releases": 300,
+      "matched_releases_in_universe": 224,
+      "eps_agree_within_half_cent_pct": 95.1
+    },
+    "signal_coverage_pct_of_universe_months": {
+      "MOM": 99.5,
+      "BM": 84.6,
+      "EP": 83.5,
+      "ROA": 85.9,
+      "SUE": 91.3,
+      "EAR": 91.0
+    }
+  },
+  "pairs": {
+    "windows": 26,
+    "pairs_traded": 512,
+    "avg_pairs_per_window": 19.7,
+    "pairs_still_cointegrated_in_trading_window_pct": 7.6,
+    "round_trips": 1889,
+    "pairs_with_a_trade_pct": 97.7,
+    "win_rate_of_traded_pairs_net_pct": 39.6,
+    "avg_capital_in_use_pct": 37.7,
+    "perf_gross": {
+      "ann_return_pct": -0.10528180265191488,
+      "ann_vol_pct": 1.826912304177573,
+      "sharpe": -0.05762827389753112,
+      "max_drawdown_pct": -8.167992715211414,
+      "years": 12.718253968253968
+    },
+    "perf_net": {
+      "ann_return_pct": -1.5905485733227416,
+      "ann_vol_pct": 1.827068785556245,
+      "sharpe": -0.870546629605138,
+      "max_drawdown_pct": -20.702827813631764,
+      "years": 12.718253968253968
+    }
+  },
+  "mv_avg_shrinkage": 0.0732792097392602,
+  "mv_avg_ex_ante_vol_ann": 0.02932397923473284,
+  "mv_avg_gross": 1.9999997024778178,
+  "mv_avg_names": 207.00653594771242,
+  "mv_solver_status": {
+    "optimal": 153
+  },
+  "erc_avg_sleeve_weights": {
+    "MOM": 0.131,
+    "VALUE": 0.391,
+    "QUALITY": 0.221,
+    "EARNINGS": 0.257
+  },
+  "runtime_minutes": 4.9
+}
